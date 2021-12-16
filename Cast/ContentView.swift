@@ -75,7 +75,7 @@ struct ContentView: View {
     
     func cast() {
         let videoURL = URL(string: "http://192.168.11.200:53544/playlist.m3u8")!
-        let posterURL = URL(string: "https://i.imgur.com/GPgh0AN.jpg")!
+        let posterURL = URL(string: "https://github.com/Desbeers/SwiftlyCasting/raw/main/Cast/Assets.xcassets/UberMini.imageset/UberMini-1024.png")!
         
         // create a CastMedia object to hold media information
         let media = CastMedia(title: "Test Bars",
